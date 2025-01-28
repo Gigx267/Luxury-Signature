@@ -1,4 +1,14 @@
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
+.mySlides {display: none}
+</style>
+
+
            
 <!doctype html>
 <html lang="en">
@@ -19,7 +29,12 @@
     <link rel="stylesheet" href="css/vendor/aos.css">
     <link rel="stylesheet" href="css/vendor/animate.min.css">
     <link rel="stylesheet" href="css/vendor/bootstrap.css">
+<!-- Bootstrap CSS -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
+<!-- Bootstrap JS and jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <!-- Theme Style -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -82,321 +97,566 @@
               </li>
 
 
-            <!-- Mobile Toggle -->
-            <a href="#" class="d-block d-lg-none burger js-menu-toggle" data-toggle="collapse" data-target="#main-navbar">
-              <span></span>
-            </a>
+     <!-- Mobile Toggle -->
+<a href="#" class="d-block d-lg-none burger js-menu-toggle" data-toggle="collapse" data-target="#main-navbar">
+  <span></span>
+</a>
+</div>
+</div>
+</nav>
+
+<main class="untree_co--site-main">
+  <div class="untree_co--site-hero inner-page hero-short" style="background-image: url('rv (4).jpeg')">
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-7 text-center">
+          <div class="site-hero-contents" data-aos="fade-up">
+            <h1 class="hero-heading text-white fit-text">Our Rooms</h1>
           </div>
         </div>
-      </nav>
+      </div>
+    </div>
+  </div>
+</main>
 
-      <main class="untree_co--site-main">
-        <div class="untree_co--site-hero inner-page hero-short" style="background-image: url('rv\ \(4\).jpeg')">
-          <div class="container">
-            <div class="row align-items-center justify-content-center">
-              <div class="col-md-7 text-center">
-                <div class="site-hero-contents" data-aos="fade-up">
-                  <h1 class="hero-heading text-white fit-text">Our Rooms</h1>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </main>
+<style>
+.hero-short {
+  height: 50vh; /* Adjust the height as needed */
+  min-height: 300px; /* Ensure a minimum height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 
-    <style>  .hero-short {
-      height: 50vh; /* Adjust the height as needed */
-      min-height: 300px; /* Ensure a minimum height */
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-  }
-  
-  .site-hero-contents {
-      padding: 20px; /* Add some padding if needed */
-  }
-  
+.site-hero-contents {
+  padding: 20px; /* Add some padding if needed */
+}
+
+.fit-text {
+  font-size: 4vw; /* Adjust font size relative to viewport width */
+  max-width: 100%; /* Ensure the text does not overflow */
+  word-wrap: break-word; /* Break long words */
+}
+
+@media (max-width: 768px) {
   .fit-text {
-      font-size: 4vw; /* Adjust font size relative to viewport width */
-      max-width: 100%; /* Ensure the text does not overflow */
-      word-wrap: break-word; /* Break long words */
+    font-size: 6vw; /* Increase font size for smaller screens */
   }
-  
-  @media (max-width: 768px) {
-      .fit-text {
-          font-size: 6vw; /* Increase font size for smaller screens */
-      }
+}
+
+@media (max-width: 480px) {
+  .fit-text {
+    font-size: 8vw; /* Further increase font size for very small screens */
   }
-  
-  @media (max-width: 480px) {
-      .fit-text {
-          font-size: 8vw; /* Further increase font size for very small screens */
-      }
-  }  </style>
-        <div class="untree_co--site-section pb-0">
-          <div class="container-fluid px-md-0">
+}
 
-            <div class="row justify-content-center text-center site-section pt-0">
-              <div class="col-md-6">
-                <h2 class="display-4" data-aos="fade-up">Enjoy Your Stay</h2>
-                <p data-aos="fade-up" data-aos-delay="100">   Designed to ensure your stay is nothing short of extraordinary</p>
-              </div>
-            </div>
-            <div class="row no-gutters align-items-stretch room-animate site-section">
-              <div class="col-md-7 img-wrap" data-jarallax-element="-100">
-                
-               
-                
-                </div>
-              </div>
-              <!--Apartment 7 -->
+/* Carousel item image styling */
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  max-height: 400px; /* Adjust max height for medium size */
+  max-width: 800px; /* Adjust max width for medium size */
+  object-fit: cover;
+  margin: 0 auto; /* Center the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for clarity */
+  border-radius: 10px; /* Add rounded corners for a smoother look */
+}
 
-    </div>
-  </div>
+/* Add some padding to the carousel */
+.carousel-inner {
+  padding: 20px;
+}
 
-  </div>
+/* Add a background to the carousel caption for better readability */
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 10px;
+  border-radius: 5px;
+}
 
+/* Enhance caption text clarity */
+.carousel-caption h5, .carousel-caption p {
+  color: #fff; /* Make text color white */
+  font-weight: bold; /* Make text bolder */
+  text-shadow: 2px 2px 4px #000; /* Add text shadow for better readability */
+}
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); /* Add background to text */
+  padding: 10px;
+  border-radius: 5px;
+}
 
+.carousel-caption h5, .carousel-caption p {
+  color: #fff; /* Make text color white */
+  font-weight: bold; /* Make text bolder */
+  text-shadow: 2px 2px 4px #000; /* Add text shadow for readability */
+}
+</style>
 
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apartment Showcase</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-      .img-box {
-        height: 500px;
-        width: 380px;
-        background-size: cover;
-        background-position: center;
-      }
-    </style>
-  </head>
-  <body>
-  
-  <div class="container mt-5">
-    <div class="card">
-      <div class="img-box" style="background-image: url('E\ \(4\).webp');"></div>
-      <div class="card-body">
-        <h3 class="card-title">Penthouse 3 bedrooms</h3>
-        <div class="room-exerpt">
-          <div class="room-price mb-4">N150,000<span class="per">/night</span></div>
-          <p>Experience sophistication and comfort in our three-bedroom penthouse with a generous parlor area. This penthouse is designed to provide you with an upscale retreat, whether you're traveling with family or friends. The bedrooms are tastefully appointed, and the parlor offers ample space for relaxation and entertainment.</p>
-          <p>Revel in the luxurious ambiance and make lasting memories in our penthouse suite.</p>
-          <div class="mt-4">
-            <h4>Amenities</h4>
-            <ul class="list-unstyled ul-check">
-              <li>32-inch LCD TV with cable channels and Netflix</li>
-              <li>Handheld and mounted rain shower heads</li>
-              <li>Super Fast Wi-Fi access</li>
-              <li>Kitchenette</li>
-              <li>House Keeping</li>
-              <li>Parlour</li>
-              <li>PlayStation 5</li>
-              <li>24 Hours Electricity</li>
-            </ul>
-          </div>
-        </div>
+<!-- Studio Apartment Section -->
+<div class="w3-container" id="apartment1">
+  <br><br><br>
+  <h2 style="font-size: xx-large;color: burlywood; font-weight: 600;" class="display-4" data-aos="fade-up">Studio Apartment </h2>
+  <div id="carouselStudio" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="p (21).jpeg" class="d-block w-100" alt="Living room">
+      
       </div>
-    </div>
-  </div>
-
-
-
-  <div class="container mt-5">
-    <div class="card">
-      <div class="img-box" style="background-image: url('rr\ \(3\).jpeg');"></div>
-      <div class="card-body">
-        <h3 class="card-title">Penthouse 3 bedrooms</h3>
-        <div class="room-exerpt">
-          <div class="room-price mb-4">N150,000<span class="per">/night</span></div>
-          <p>Experience sophistication and comfort in our three-bedroom penthouse with a generous parlor area. This penthouse is designed to provide you with an upscale retreat, whether you're traveling with family or friends. The bedrooms are tastefully appointed, and the parlor offers ample space for relaxation and entertainment.</p>
-          <p>Revel in the luxurious ambiance and make lasting memories in our penthouse suite.</p>
-          <div class="mt-4">
-            <h4>Amenities</h4>
-            <ul class="list-unstyled ul-check">
-              <li>32-inch LCD TV with cable channels and Netflix</li>
-              <li>Handheld and mounted rain shower heads</li>
-              <li>Super Fast Wi-Fi access</li>
-              <li>Kitchenette</li>
-              <li>House Keeping</li>
-              <li>Parlour</li>
-              <li>PlayStation 5</li>
-              <li>24 Hours Electricity</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-
-  <div class="container mt-5">
-    <div class="card">
-      <div class="img-box" style="background-image: url('rv\ \(3\).jpeg');"></div>
-      <div class="card-body">
-        <h3 class="card-title">Penthouse 3 bedrooms</h3>
-        <div class="room-exerpt">
-          <div class="room-price mb-4">N150,000<span class="per">/night</span></div>
-          <p>Experience sophistication and comfort in our three-bedroom penthouse with a generous parlor area. This penthouse is designed to provide you with an upscale retreat, whether you're traveling with family or friends. The bedrooms are tastefully appointed, and the parlor offers ample space for relaxation and entertainment.</p>
-          <p>Revel in the luxurious ambiance and make lasting memories in our penthouse suite.</p>
-          <div class="mt-4">
-            <h4>Amenities</h4>
-            <ul class="list-unstyled ul-check">
-              <li>32-inch LCD TV with cable channels and Netflix</li>
-              <li>Handheld and mounted rain shower heads</li>
-              <li>Super Fast Wi-Fi access</li>
-              <li>Kitchenette</li>
-              <li>House Keeping</li>
-              <li>Parlour</li>
-              <li>PlayStation 5</li>
-              <li>24 Hours Electricity</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  </body>
-  </html>
-
-
-
-
-
-
-        <div class="untree_co--site-section py-5 bg-body-darker cta">
-          <div class="container">
-            <div class="row">
-              <div class="col-12 text-center">
-                <h3 class="m-0 p-0">If you have any special requests, please feel free to call us. <a href="tel://+234 903 858 8186">+234.903.858.8186</a></h3>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-      </div>
-      <footer class="untree_co--site-footer">
-
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4 pr-md-5">
-              <h3>About Us</h3>
-              <p>  
-
-              </p>At luxury SignaturIndulge in an experience that transcends the ordinary, where comfort, style, and convenience converge to create the perfect hotel room retreat. Book now to elevate your stay to new heights of luxury and relaxatione our fully furnished apartments are a  curated  haven that combines modern amenities with a touch of elegance to make your stay truly memorable.
-
-              <p><a href="about.html" class="readmore">Read more</a></p>
-            </div>
-            <div class="col-md-8 ml-auto">
-              <div class="row">
-                <div class="col-md-3">
-            
-                  <ul class="list-unstyled">
-                   
-                  </ul>
-                </div>
-                <div class="col-md-9 ml-auto">
-                  <div class="row mb-3">
-                    <div class="col-md-6">
-                      <h3>Address</h3>
-                      <address>Osapa London Lekki Lagos </address>
-                    </div>
-                    <div class="col-md-6">
-                      <h3>Telephone</h3>
-                      <p>
-                        <a href="#">+234 903 858 8186</a> <br>
-                 
-                      </p>
-                    </div>
-                  </div>
-
-                  <h3 class="mb-0">Subscribe </h3>
-                  <p>Be the first to know our latest updates and discounts !</p>
-                  <form action="#" method="" class="form-subscribe">
-                    <div class="form-group d-flex">
-                      <input type="email" class="form-control mr-2" placeholder="Enter your email">
-                      <input type="submit" value="Subscribe" class="btn btn-black px-4 text-white">
-                    </div>
-                  </form>
-                </div>
-                
-              </div>
-            </div>
-          </div>
-          <div class="row mt-5 pt-5 align-items-center">
-            <div class="col-md-6 text-md-left">
-              <!-- Link back to Untree.co can't be removed. Template is licensed under CC BY 3.0. If you purchased a license you can remove this. -->
-              <p>
-               
-              </p>
-            <!-- Link back to Untree.co can't be removed. Template is licensed under CC BY 3.0. If you purchased a license you can remove this. -->
-            </div>
-            <div class="col-md-6 text-md-right">
-              <ul class="icons-top icons-dark">
-              
-           
-              </li>
-              <li>
-             
-              </li>
-            </ul>
-
-            </div>
-          </div>
-        </div>
+      <div class="carousel-item">
+        <img src="p (22).jpeg" class="d-block w-100" alt="Dining room">
         
-      </footer>
+      </div>
+      <div class="carousel-item">
+        <img src="p (25).jpeg" class="d-block w-100" alt="Bedroom">
+        
+      </div>
+      <div class="carousel-item">
+        <img src="p (24).jpeg" class="d-block w-100" alt="Second Living Room">
+        
+      </div>
     </div>
+    <a class="carousel-control-prev" href="#carouselStudio" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon custom-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselStudio" role="button" data-slide="next">
+      <span class="carousel-control-next-icon custom-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
 
-    <!-- Search -->
-    <div class="search-wrap">
-      <a href="#" class="close-search js-search-toggle">
-        <span>Close</span>
-      </a>
-      <div class="container">
-        <div class="row justify-content-center align-items-center text-center">
-          <div class="col-md-12">
-            <form action="#">
-              <input type="search" name="s" id="s" placeholder="Type a keyword and hit enter..."  autocomplete="false">
-            </form>    
+    <style> 
+.custom-icon {
+  background-color: rgb(22, 21, 21);
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgb(46, 38, 38);
+}
+
+    </style>
+  </div>
+</div>
+
+<div class="w3-container">
+  <h4><strong>70,000/night </strong></h4>
+  <div class="w3-row w3-large"></div>
+  <hr>
+  <h4 class="display-4" style="font-size: large;" ><strong>Amenities </strong></h4>
+  <ul   >
+    <li>32-inch LCD TV with cable channels and Netflix</li>
+    <li>Handheld and mounted rain shower heads</li>
+    <li>Super Fast Wi-Fi access</li>
+    <li>Kitchenette</li>
+    <li>House Keeping</li>
+    <li>Parlour</li>
+    <li>PlayStation 5</li>
+    <li>24 Hours Electricity</li>
+  </ul>
+  <p>We accept:
+    <i class="fa fa-credit-card w3-large"></i>
+    <i class="fa fa-cc-mastercard w3-large"></i>
+    <i class="fa fa-cc-amex w3-large"></i>
+    <i class="fa fa-cc-visa w3-large"></i>
+    <i class="fa fa-cc-cash w3-large"></i>
+  </p>
+  <hr>
+</div>
+
+<!-- 1 Bedroom Apartment Section -->
+<div class="w3-container" id="apartment2">
+  <br><br><br>
+  <h2 style="font-size: xx-large;color: burlywood; font-weight: 600;" class="display-4" data-aos="fade-up">1 Bedroom Apartment  </h2>
+  <div id="carouselOneBedroom" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="mk (5).jpeg" class="d-block w-100" alt="Living room">
+       
+      </div>
+      <div class="carousel-item">
+        <img src="mk (4).jpeg" class="d-block w-100" alt="Dining room">
+       
+      </div>
+      <div class="carousel-item">
+        <img src="mk (3).jpeg" class="d-block w-100" alt="Bedroom">
+        
+      </div>
+      <div class="carousel-item">
+        <img src="mk (2).jpeg" class="d-block w-100" alt="Second Living Room">
+        
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselOneBedroom" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselOneBedroom" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<div class="w3-container">
+  <h4><strong>110,000/night </strong></h4>
+  <div class="w3-row w3-large"></div>
+  <hr>
+  <h4><strong>Amenities </strong></h4>
+  <ul>
+    <li>32-inch LCD TV with cable channels and Netflix</li>
+    <li>Handheld and mounted rain shower heads</li>
+    <li>Super Fast Wi-Fi access</li>
+    <li>Kitchenette</li>
+    <li>House Keeping</li>
+    <li>Parlour</li>
+    <li>PlayStation 5</li>
+    <li>24 Hours Electricity</li>
+  </ul>
+  <p>We accept:
+    <i class="fa fa-credit-card w3-large"></i>
+    <i class="fa fa-cc-mastercard w3-large"></i>
+    <i class="fa fa-cc-amex w3-large"></i>
+    <i class="fa fa-cc-visa w3-large"></i>
+    <i class="fa fa-cc-cash w3-large"></i>
+  </p>
+  <hr>
+</div>
+
+
+
+
+<!--Apartment 3 -->
+
+<!-- 2 Bedroom Apartment Section -->
+<div class="w3-container" id="apartment3">
+  <br><br><br>
+  <h2 style="font-size: xx-large;color: burlywood; font-weight: 600;" class="display-4" data-aos="fade-up">2 Bedroom Penthouse   </h2>
+  <div id="carouselTwoBedroom" class="carousel slide" data-ride="carousel"> <!-- Changed id to "carouselTwoBedroom" -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="rr (1).jpeg" class="d-block w-100" alt="Living room">
+      </div>
+      <div class="carousel-item">
+        <img src="rv (3).jpeg" class="d-block w-100" alt="Dining room">
+      </div>
+      <div class="carousel-item">
+        <img src="rv (2).jpeg" class="d-block w-100" alt="Bedroom">
+      </div>
+      <div class="carousel-item">
+        <img src="rr (1).jpeg" class="d-block w-100" alt="Second Living Room">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselTwoBedroom" role="button" data-slide="prev"> <!-- Changed href to "#carouselTwoBedroom" -->
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselTwoBedroom" role="button" data-slide="next"> <!-- Changed href to "#carouselTwoBedroom" -->
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<div class="w3-container">
+  <h4><strong>120,000/night </strong></h4>
+  <div class="w3-row w3-large"></div>
+  <hr>
+  <h4><strong>Amenities </strong></h4>
+  <ul>
+    <li>32-inch LCD TV with cable channels and Netflix</li>
+    <li>Handheld and mounted rain shower heads</li>
+    <li>Super Fast Wi-Fi access</li>
+    <li>Kitchenette</li>
+    <li>House Keeping</li>
+    <li>Parlour</li>
+    <li>PlayStation 5</li>
+    <li>24 Hours Electricity</li>
+  </ul>
+  <p>We accept:
+    <i class="fa fa-credit-card w3-large"></i>
+    <i class="fa fa-cc-mastercard w3-large"></i>
+    <i class="fa fa-cc-amex w3-large"></i>
+    <i class="fa fa-cc-visa w3-large"></i>
+    <i class="fa fa-cc-cash w3-large"></i>
+  </p>
+  <hr>
+</div>
+
+
+<!--Apartment 3 -->
+
+<!-- 2 Bedroom Apartment Section -->
+<div class="w3-container" id="apartment3">
+  <br><br><br>
+  <h2 style="font-size: xx-large;color: burlywood; font-weight: 600;" class="display-4" data-aos="fade-up">2 Bedroom Penthouse   </h2>
+  <div id="carouselfourBedroom" class="carousel slide" data-ride="carousel"> <!-- Changed id to "carouselTwoBedroom" -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="rr (2).jpeg" class="d-block w-100" alt="Living room">
+      </div>
+      <div class="carousel-item">
+        <img src="rr (6).jpeg" class="d-block w-100" alt="Dining room">
+      </div>
+      <div class="carousel-item">
+        <img src="rr (7).jpeg" class="d-block w-100" alt="Bedroom">
+      </div>
+      <div class="carousel-item">
+        <img src="rr (3).jpeg" class="d-block w-100" alt="Second Living Room">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselfourBedroom" role="button" data-slide="prev"> <!-- Changed href to "#carouselTwoBedroom" -->
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselfourBedroom" role="button" data-slide="next"> <!-- Changed href to "#carouselTwoBedroom" -->
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<div class="w3-container">
+  <h4><strong>120,000/night </strong></h4>
+  <div class="w3-row w3-large"></div>
+  <hr>
+  <h4><strong>Amenities </strong></h4>
+  <ul>
+    <li>32-inch LCD TV with cable channels and Netflix</li>
+    <li>Handheld and mounted rain shower heads</li>
+    <li>Super Fast Wi-Fi access</li>
+    <li>Kitchenette</li>
+    <li>House Keeping</li>
+    <li>Parlour</li>
+    <li>PlayStation 5</li>
+    <li>24 Hours Electricity</li>
+  </ul>
+  <p>We accept:
+    <i class="fa fa-credit-card w3-large"></i>
+    <i class="fa fa-cc-mastercard w3-large"></i>
+    <i class="fa fa-cc-amex w3-large"></i>
+    <i class="fa fa-cc-visa w3-large"></i>
+    <i class="fa fa-cc-cash w3-large"></i>
+  </p>
+  <hr>
+</div>
+
+<main class="untree_co--site-main">
+        
+
+  <div class="untree_co--site-hero inner-page bg-light" style="background-color: #fff;">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-9">
+          <div class="site-hero-contents" data-aos="fade-up">
+            <h1 class="hero-heading">Contact Us</h1>
+            <div class="sub-text w-75">
+              <p>
+                Don't hesitate to reach out with any questions, comments, or requests you may have. We look forward to hearing from you!
+              </p> 
+            </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
+  
+  <div class="untree_co--site-section">
+    <div class="container">
+      
+        <div class="row">
+          <div class="col-12" data-aos="fade-up">
+            <h2 class="display-4 mb-5">Fill the form</h2>
+          </div>
+          <div class="col-md-6 mb-5 mb-md-0" data-aos="fade-up" data-aos-delay="100">
+            
+            <form action="#">
+              <div class="form-group">
+                <label for="name">Your Name *</label>
+                <input type="text" class="form-control" id="name">
+              </div>
+              <div class="form-group">
+                <label for="email2">Your Email *</label>
+                <input type="text" class="form-control" id="email2">
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" class="form-control" id="subject">
+              </div>
+              <div class="form-group">
+                <label for="message">Message *</label>
+                <textarea name="message" class="form-control" id="message" cols="30" rows="10"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Send" class="btn btn-black px-5 text-white">
+              </div>
+            </form>
+          </div>
+          <div class="col-md-4 ml-auto"  data-aos="fade-up" data-aos-delay="200">
+            <div class="media-29190">
+              <span class="label">Email</span>
+              <p><a href="#">luxurysignature@gmail.com</a></p>
+            </div>
+            <div class="media-29190">
+              <span class="label">Phone</span>
+              <p><a href="#">+234 903 858 8186</a></p>
+            </div>
+            <div class="media-29190">
+              <span class="label">Address</span>
+              <p>Osapa London Lekki Lagos </p>
+            </div>
+            <div class="media-29190">
+              <span class="label">Social</span>
+              <ul class="icons-top icons-dark">
+                <li>
+                  <a href="#"><span class="icon-facebook"></span></a>
+                </li>
+                <li>
+                  <a href="#"><span class="icon-twitter"></span></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/luxurysignaturehomes/"><span class="icon-instagram"></span></a>
+                </li>
+                <li>
+                 
+                </li>
+              </ul>
+            </div>
+          </div>
 
-    <script src="js/vendor/jquery-3.3.1.min.js"></script>
-    <script src="js/vendor/popper.min.js"></script>
-    <script src="js/vendor/bootstrap.min.js"></script>
+        </div>
+      
+    </div>
+  </div>
 
-    <script src="js/vendor/owl.carousel.min.js"></script>
-    
-    <script src="js/vendor/jarallax.min.js"></script>
-    <script src="js/vendor/jarallax-element.min.js"></script>
-    <script sr c="js/vendor/ofi.min.js"></script>
+  <div class="untree_co--site-section py-5 bg-body-darker cta">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h3 class="m-0 p-0">If you have any special requests, please feel free to call us. <a href="tel://+234 903 858 8186">+234 903 858 8186</a></h3>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <script src="js/vendor/aos.js"></script>
+</main>
+<footer class="untree_co--site-footer">
 
-    <script src="js/vendor/jquery.lettering.js"></script>
-    <script src="js/vendor/jquery.sticky.js"></script>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 pr-md-5">
+        <h3>About Us</h3>
+        <p>  
 
-    <script src="js/vendor/TweenMax.min.js"></script>
-    <script src="js/vendor/ScrollMagic.min.js"></script>
-    <script src="js/vendor/scrollmagic.animation.gsap.min.js"></script>
-    <script src="js/vendor/debug.addIndicators.min.js"></script>
+        </p>Luxury Signature Indulge in an experience that transcends the ordinary, where comfort, style, and convenience converge to create the perfect hotel room retreat. Book now to elevate your stay to new heights of luxury and relaxatione our fully furnished apartments are a  curated  haven that combines modern amenities with a touch of elegance to make your stay truly memorable.
+        <p><a href="about.html" class="readmore">Read more</a></p>
+      </div>
+      <div class="col-md-8 ml-auto">
+        <div class="row">
+          <div class="col-md-3">
+            <h3>Navigation</h3>
+            <ul class="list-unstyled">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="rooms.html">Rooms</a></li>
+              <li><a href="amenities.html">Amenities</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-9 ml-auto">
+            <div class="row mb-3">
+              <div class="col-md-6">
+                <h3>Address</h3>
+                <address>Osapa London Lekki Lagos </address>
+              </div>
+              <div class="col-md-6">
+                <h3>Telephone</h3>
+                <p>
+                  <a href="#">+234 903 858 8186</a> <br>
+           
+                </p>
+              </div>
+            </div>
+
+            <h3 class="mb-0">Subscribe </h3>
+            <p>Be the first to know our latest updates and discounts !</p>
+            <form action="#" method="" class="form-subscribe">
+              <div class="form-group d-flex">
+                <input type="email" class="form-control mr-2" placeholder="Enter your email">
+                <input type="submit" value="Subscribe" class="btn btn-black px-4 text-white">
+              </div>
+            </form>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="row mt-5 pt-5 align-items-center">
+      <div class="col-md-6 text-md-left">
+        <!-- Link back to Untree.co can't be removed. Template is licensed under CC BY 3.0. If you purchased a license you can remove this. -->
+        <p>
+         
+        </p>
+      <!-- Link back to Untree.co can't be removed. Template is licensed under CC BY 3.0. If you purchased a license you can remove this. -->
+      </div>
+      <div class="col-md-6 text-md-right">
+        <ul class="icons-top icons-dark">
+        
+     
+        </li>
+        <li>
+       
+        </li>
+      </ul>
+
+      </div>
+    </div>
+  </div>
+  
+</footer>
+</div>
+
+<!-- Search -->
+<div class="search-wrap">
+<a href="#" class="close-search js-search-toggle">
+  <span>Close</span>
+</a>
+<div class="container">
+  <div class="row justify-content-center align-items-center text-center">
+    <div class="col-md-12">
+      <form action="#">
+        <input type="search" name="s" id="s" placeholder="Type a keyword and hit enter..."  autocomplete="false">
+      </form>    
+    </div>
+  </div>
+</div>
+</div>
 
 
-    <script src="js/main.js"></script>
-  </body>
+</body>
+</html>
+<script src="js/vendor/jquery-3.3.1.min.js"></script>
+<script src="js/vendor/popper.min.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+
+<script src="js/vendor/owl.carousel.min.js"></script>
+
+<script src="js/vendor/jarallax.min.js"></script>
+<script src="js/vendor/jarallax-element.min.js"></script>
+<script sr c="js/vendor/ofi.min.js"></script>
+
+<script src="js/vendor/aos.js"></script>
+
+<script src="js/vendor/jquery.lettering.js"></script>
+<script src="js/vendor/jquery.sticky.js"></script>
+
+<script src="js/vendor/TweenMax.min.js"></script>
+<script src="js/vendor/ScrollMagic.min.js"></script>
+<script src="js/vendor/scrollmagic.animation.gsap.min.js"></script>
+<script src="js/vendor/debug.addIndicators.min.js"></script>
+
+
+<script src="js/main.js"></script>
+</body>
 </html>
